@@ -12,6 +12,7 @@ import Header1 from './Header';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import reducers from './src/reducers';
+import LibraryList from './src/components/LibraryList';
 
 
 
