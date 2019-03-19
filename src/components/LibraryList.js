@@ -13,4 +13,6 @@ const mapStateToProps =  state => {
     return { libraries: state.libraries };
 };
 
+// takes global state object and map it providin them as props. => mapStateToProps 
+
 export default connect(mapStateToProps)(LibraryList);

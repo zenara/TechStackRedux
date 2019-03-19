@@ -19,7 +19,10 @@ import LibraryList from './src/components/LibraryList';
 const App =() => {
     return (
       <Provider store={createStore(reducers)}>
-        <View/>
+        <View>
+          <Text>Hi</Text>
+          <LibraryList></LibraryList>
+        </View>
       </Provider>
     );
   };
